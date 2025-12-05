@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body id="home-page">
+
+<header>
+    <nav class="navbar">
+        <div class="logo"></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="resume.html" class="nav-link">Resume</a></li>
+            <li><a href="biodata.html" class="nav-link">Biodata</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span class="accent"></span></h1>
+            <p class="hero-tagline"></p>
+            <div class="hero-buttons">
+                <a href="resume.html" class="btn primary-btn">View Resume</a>
+                <a href="biodata.html" class="btn secondary-btn">View Biodata</a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <h2>Quick Profile</h2>
+            <ul>
+                <li><strong>Degree:</strong> __________</li>
+                <li><strong>College:</strong> __________</li>
+                <li><strong>Location:</strong> __________</li>
+                <li><strong>Email:</strong> __________</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="skills-summary">
+        <h2>Key Skills</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Category 1</h3>
+                <p>______________</p>
+            </div>
+            <div class="card">
+                <h3>Category 2</h3>
+                <p>______________</p>
+            </div>
+            <div class="card">
+                <h3>Category 3</h3>
+                <p>______________</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects-summary">
+        <h2>Highlighted Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>Project description goes here.</p>
+            </div>
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>Project description goes here.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

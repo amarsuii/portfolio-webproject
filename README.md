@@ -12,5 +12,3 @@ Features:
 •	Easy to customize and expand
 
 •	Suitable for Web Technology Lab / Portfolio submissions
-
-•	Easily deployable with GitHub Pages
